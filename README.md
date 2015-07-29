@@ -2,6 +2,7 @@
 
 This is a Kitchenplan configuration repository. This repository contains all configuration to install and configure OSX workstations. More information about Kitchenplan and on how to use it can be found in the [Kitchenplan README](https://github.com/kitchenplan/kitchenplan).
 
+**For a detailed explanation/introduction please [watch this video](http://www.youtube.com/watch?feature=player_embedded&v=Rf8GubPF9oo).**  
 ## Adding New Users
 
 If you look in the `config/people` directory, you'll see some "YAML" config files for different users. These must match your OSX username (typically the name of your "Home" folder). You can add one for yourself or edit an existing one if you'd like.
