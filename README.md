@@ -6,7 +6,7 @@ This is a Kitchenplan configuration repository. This repository contains all con
 
 If you look in the `config/people` directory, you'll see some "YAML" config files for different users. These must match your OSX username (typically the name of your "Home" folder). You can add one for yourself or edit an existing one if you'd like.
 
-The easiest way to get it going is to look at the existing files, especially "snaptopixel" since it is the most customized.
+The easiest way to get started is to copy the source of an existing profile, especially "snaptopixel" since it is the most customized.
 
 Once you've got it configured to your liking, follow the steps below.
 
