@@ -1,0 +1,26 @@
+recipes:
+    global:
+        - dotfiles::gitconfig
+    mac_os_x:
+        - applications::sublime_text_3
+        - osxdefaults::set_terminal_profile
+        - osxdefaults::tap_to_click
+attributes:
+    homebrewalt:
+        apps:
+            - git
+            - git-extras
+            - git-flow
+            - bash-completion
+        cask_apps:
+            - google-chrome
+            - firefox
+            - totalterminal
+        cask_fonts:
+            - source-code-pro
+    nodejs:
+        apps:
+            - bower
+            - grunt
+            - grunt-cli
+            - bower
