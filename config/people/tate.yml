@@ -1,0 +1,26 @@
+groups:
+    - developer
+recipes:
+    mac_os_x:
+        - sudoalt::default
+        - osxdefaults::menu_add_battery_percentage
+        - osxdefaults::menu_show_clock_with_date
+        - osxdefaults::reduce_transparency
+        - osxdefaults::disable_auto-correct
+        - osxdefaults::dark-mode
+attributes:
+    homebrewalt:
+        cask_apps:
+            - virtualhostx
+            - virtualbox
+            - dropbox
+            - charles
+    git:
+        name: Adam Tate
+        email: adam.tate@lightspeedvt.com
+    authorization:
+        sudo:
+            users:
+                - tate
+            passwordless: true
+            include_sudoers_d: true
