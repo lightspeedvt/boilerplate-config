@@ -14,7 +14,7 @@ attributes:
             - virtualhostx
             - virtualbox
             - dropbox
-            - charles
+            - brackets
     git:
         name: Adam Tate
         email: adam.tate@lightspeedvt.com
