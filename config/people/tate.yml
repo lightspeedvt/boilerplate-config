@@ -15,6 +15,7 @@ attributes:
             - virtualbox
             - dropbox
             - brackets
+            - moom
     git:
         name: Adam Tate
         email: adam.tate@lightspeedvt.com
